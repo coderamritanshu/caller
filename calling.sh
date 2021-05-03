@@ -9,7 +9,7 @@ read -p "Phone Number:" num
 
 if [$num -gt 1000000000 && $num -lt 9999999999];  
 then  
-  echo "termux-telephony-call" $num 
+  termux-telephony-call $num 
 else  
   echo "Please enter correct number"
   
